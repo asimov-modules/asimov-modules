@@ -1,0 +1,3 @@
+[submodule "goodreads"]
+	path = goodreads
+	url = https://github.com/asimov-modules/asimov-goodreads-module.git
