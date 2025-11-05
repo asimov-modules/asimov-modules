@@ -1,0 +1,87 @@
+[submodule "anthropic"]
+	path = anthropic
+	url = https://github.com/asimov-modules/asimov-anthropic-module.git
+[submodule "apify"]
+	path = apify
+	url = https://github.com/asimov-modules/asimov-apify-module.git
+[submodule "brightdata"]
+	path = brightdata
+	url = https://github.com/asimov-modules/asimov-brightdata-module.git
+[submodule "chromium"]
+	path = chromium
+	url = https://github.com/asimov-modules/asimov-chromium-module.git
+[submodule "ftp"]
+	path = ftp
+	url = https://github.com/asimov-modules/asimov-ftp-module.git
+[submodule "gemini"]
+	path = gemini
+	url = https://github.com/asimov-modules/asimov-gemini-module.git
+[submodule "http"]
+	path = http
+	url = https://github.com/asimov-modules/asimov-http-module.git
+[submodule "imap"]
+	path = imap
+	url = https://github.com/asimov-modules/asimov-imap-module.git
+[submodule "ipfs"]
+	path = ipfs
+	url = https://github.com/asimov-modules/asimov-ipfs-module.git
+[submodule "jinja"]
+	path = jinja
+	url = https://github.com/asimov-modules/asimov-jinja-module.git
+[submodule "jq"]
+	path = jq
+	url = https://github.com/asimov-modules/asimov-jq-module.git
+[submodule "linkup"]
+	path = linkup
+	url = https://github.com/asimov-modules/asimov-linkup-module.git
+[submodule "luma"]
+	path = luma
+	url = https://github.com/asimov-modules/asimov-luma-module.git
+[submodule "maildir"]
+	path = maildir
+	url = https://github.com/asimov-modules/asimov-maildir-module.git
+[submodule "mbox"]
+	path = mbox
+	url = https://github.com/asimov-modules/asimov-mbox-module.git
+[submodule "mlx"]
+	path = mlx
+	url = https://github.com/asimov-modules/asimov-mlx-module.git
+[submodule "near"]
+	path = near
+	url = https://github.com/asimov-modules/asimov-near-module.git
+[submodule "ollama"]
+	path = ollama
+	url = https://github.com/asimov-modules/asimov-ollama-module.git
+[submodule "openai"]
+	path = openai
+	url = https://github.com/asimov-modules/asimov-openai-module.git
+[submodule "qdrant"]
+	path = qdrant
+	url = https://github.com/asimov-modules/asimov-qdrant-module.git
+[submodule "readwise"]
+	path = readwise
+	url = https://github.com/asimov-modules/asimov-readwise-module.git
+[submodule "serpapi"]
+	path = serpapi
+	url = https://github.com/asimov-modules/asimov-serpapi-module.git
+[submodule "signal"]
+	path = signal
+	url = https://github.com/asimov-modules/asimov-signal-module.git
+[submodule "telegram"]
+	path = telegram
+	url = https://github.com/asimov-modules/asimov-telegram-module.git
+[submodule "template"]
+	path = template
+	url = https://github.com/asimov-modules/asimov-template-module.git
+[submodule "valkey"]
+	path = valkey
+	url = https://github.com/asimov-modules/asimov-valkey-module.git
+[submodule "vcard"]
+	path = vcard
+	url = https://github.com/asimov-modules/asimov-vcard-module.git
+[submodule "x"]
+	path = x
+	url = https://github.com/asimov-modules/asimov-x-module.git
+[submodule "xai"]
+	path = xai
+	url = https://github.com/asimov-modules/asimov-xai-module.git
