@@ -48,12 +48,13 @@ namespace :modules do
   end
 
   task readme: MODULE_MANIFESTS do |t|
-    puts %w[Name Label Summary].join(' | ')
-    puts %w[:--- :---- :------].join(' | ').ljust(80, '-')
+    puts %w[Name Label Summary Package].join(' | ')
+    puts %w[:--- :---- :------ :------].join(' | ').ljust(80, '-')
     t.prerequisites.each do |manifest_path|
       manifest = YAML.safe_load(File.read(manifest_path))
-      link = "[#{manifest['name']}](https://github.com/asimov-modules/asimov-#{manifest['name']}-module)"
-      puts [link, manifest['label'], manifest['summary']].join(' | ')
+      name_link = "[#{manifest['name']}](https://github.com/asimov-modules/asimov-#{manifest['name']}-module)"
+      crate_link = "[🦀](https://crates.io/crates/asimov-#{manifest['name']}-module)"
+      puts [name_link, manifest['label'], manifest['summary'], crate_link].join(' | ')
     end
   end
 end
