@@ -137,6 +137,7 @@ links:
 provides:
   programs:
     - asimov-ftp-fetcher
+    - asimov-ftp-cataloger
 
 handles:
   url_protocols:

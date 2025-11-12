@@ -163,7 +163,8 @@
     ],
     "provides": {
       "programs": [
-        "asimov-ftp-fetcher"
+        "asimov-ftp-fetcher",
+        "asimov-ftp-cataloger"
       ]
     },
     "handles": {
