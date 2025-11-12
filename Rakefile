@@ -2,7 +2,7 @@ require 'json'
 require 'pathname'
 require 'yaml'
 
-VIRTUAL_MODULES = %w[all]
+VIRTUAL_MODULES = %w[all default]
 VIRTUAL_MANIFESTS = Set[*VIRTUAL_MODULES.map { |name| "#{name}/.asimov/module.yaml" }]
 MODULE_MANIFESTS = Set[*Dir['**/.asimov/module.yaml'].sort] - VIRTUAL_MANIFESTS
 
