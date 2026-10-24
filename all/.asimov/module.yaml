@@ -8,31 +8,4 @@ links:
   - https://github.com/asimov-modules/asimov-modules
 
 requires:
-  modules:
-    - anthropic
-    - apify
-    - brightdata
-    - chromium
-    - ftp
-    - gemini
-    - http
-    - imap
-    - ipfs
-    - jinja
-    - jq
-    - linkup
-    - luma
-    - maildir
-    - mbox
-    - mlx
-    - near
-    - ollama
-    - openai
-    - readwise
-    - serpapi
-    - signal
-    - telegram
-    - valkey
-    - vcard
-    - x
-    - xai
+  modules: []
